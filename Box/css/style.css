@@ -1,0 +1,26 @@
+html, body {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+#fullpage {
+    width: 100%;
+}
+
+#box {
+    width: 200px;
+    height: 200px;
+    display: block;
+    background-color: white;
+    position: absolute;
+    transition: all 0.5s;
+}
+
+.boxLarge {
+    width: 300px !important;
+    height: 300px !important;
+    background-color: red !important;
+    margin-top: -50px;
+    margin-left: -50px;
+}
